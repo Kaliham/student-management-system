@@ -1,0 +1,9 @@
+spring:
+  profiles: prod
+  datasource:
+    url: "jdbc:postgresql://localhost:3600/student_management_system"
+    username: spring_prod
+    password: spring_prod
+  jpa:
+    hibernate:
+      ddl-auto: update

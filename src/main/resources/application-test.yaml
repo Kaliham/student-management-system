@@ -1,0 +1,13 @@
+spring:
+  profiles: test
+  datasource:
+    url: "jdbc:postgresql://localhost:3600/student_management_system"
+    username: spring_test
+    password: spring_test
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
